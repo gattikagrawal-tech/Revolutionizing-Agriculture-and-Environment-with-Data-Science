@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science in Environment and Agriculture</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #5f8d9a,#a9c7c5);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #2f284e, #513489, #0c4160);
+            color: white;
+            text-align: left;
+            padding: 35px 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 2.9em;
+            margin: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        nav {
+            font-size: 1.5em;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(135deg, #2f284e, #513489, #0c4160);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1.1rem 1.5rem;
+            display: block;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .card {
+            background: rgb(86, 208, 227);
+            border: 2px solid #435e55ff;
+            border-radius: 5px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-bottom: 30px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        .card h2 {
+            background: #44576d;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 0;
+            font-size: 1.8em;
+            text-align: center;
+        }
+        .card p {
+            padding: 20px;
+            font-size: 1.4em;
+            line-height: 1.8;
+            color: #000000;
+        }
+        .card a {
+            display: block;
+            background: #3c6e71;
+            color: white;
+            text-decoration: none;
+            text-align: left;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.5em;
+            border-radius: 0 0 15px 15px;
+            transition: background 0.3s;
+        }
+        .card a:hover {
+            background: #0c4160;
+        }
+        .container ul {
+            list-style: none;
+            padding: 0;
+        }
+        .container ul li {
+            font-size: 1.4em;
+            margin: 15px 0;
+        }
+        .flex-container {
+            display: flex;
+        }
+        .flex-container img {
+            height: 300px;
+            margin-right: 20px;
+            animation: rotate 5s infinite linear;
+        }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .rotating-image {
+            animation: rotate 5s infinite linear;
+        }
+        section {
+            padding: 2rem;
+            margin: auto;
+            max-width: 800px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+        }
+         div.rotate-image {
+            animation: rotate 5s infinite linear;
+            height: 300px;
+            margin-right: 20px;
+        }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        footer {
+            background: linear-gradient(135deg, #2f284e, #513489, #0c4160);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        h2,h3 {
+            color:#14469F;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div>
+                <img src="data science logo.png" alt="rotating-image" class="rotate">
+            </div>
+            <div>
+                <text align:center>
+                <h1>Revolutionizing Agriculture and Environment<br>With Data Science</h1>
+            </text>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="#Introduction"> Introduction</a>
+        <a href="#environment">Environment</a>
+        <a href="#Agriculture">Agriculture</a>
+        <a href="#References">References</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+        <section id="Introduction">
+        <h2>Use of Data Science in Agriculture & Environment </h2>
+        <p>
+        <ul>
+            <li><strong>Data Science in Environment:</strong> Data science can play a crucial role in addressing environmental challenges by analyzing and interpreting large datasets to make informed decisions and promote sustainable practices.</li>
+            <li><strong>Data Science in Agriculture:</strong> Data science applies advanced analytics, statistical methods, and machine learning techniques to analyze agricultural data. This enables smarter decisions and improves efficiency, productivity, and sustainability in farming</li>
+        </ul>
+    </p>
+    </div>
+</section>
+        <div class="card">
+            <section id="environment">
+            <h2>Environment</h2>
+            <p>Data science plays a crucial role in environmental conservation, enabling climate modeling, pollution monitoring, and biodiversity preservation. By analyzing extensive datasets, it helps in making data-driven decisions for a sustainable future.</p>
+            <a href="environment.html">Explore Environmental insights</a>
+        </section>
+        </div>
+<br>
+        <div class="card">
+            <section id="Agriculture">
+            <h2>Agriculture</h2>
+            <p>In agriculture, data science enhances productivity by optimizing crop yield, monitoring soil health, predicting weather patterns, and promoting sustainable farming techniques, ensuring food security and efficiency.</p>
+            <a href="irrigation.html">Discover Agricultural Solutions</a>
+        </section>
+        </div>
+<br>
+    <div class="card">
+        <section id="References">
+        <h2>References</h2>
+        <p>These facts are based on the reports by reputed and reliable institutions</p>
+        <a href="reference.html"> Access Reference Reports</a>
+    </div>
+</section>
+    </div>
+</body>
+</html>
